@@ -1,0 +1,44 @@
+#grid {
+  display: grid;
+  grid-template-rows: 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  margin: 0px;
+  font-size: 50px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  width: 85%;
+  padding: 10px;
+  background-color: #72C3DC;
+  border-radius: 10px;
+  border: 0px;
+  color: #ffffff;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btndiv{
+  float: right;
+}
+.wrapper{
+  padding: 0px 0px 26px 0px;
+  background: lightgray;
+}
+/* .card {
+  max-width: 360px;
+} */
